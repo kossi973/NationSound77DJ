@@ -79,7 +79,7 @@ function Home() {
                   <Link to={"/Programmation"}>PROGRAMMATION</Link>
                 </button>
                 <button className='h-14 w-full mb-1 md:w-1/2 px-8 mx-auto text-xl font-bold border rounded-lg bg-blue-800/80 shadow-lg shadow-orange-300 hover:ring hover:ring-violet-300 active:shadow-xl active:bg-amber-500'>
-                    <a href="https://nationsound77.infinityfreeapp.com/nationsound-wp/billeterie/">BILLETTERIE</a>             
+                    <a href="https://widget.weezevent.com/ticket/E1243365/?code=2782&locale=fr-FR&width_auto=1&color_primary=0032FA">BILLETTERIE</a>
                 </button>
                 <button className='h-14 w-full mb-1 md:w-1/2 px-8 mx-auto text-xl font-bold border rounded-lg bg-blue-800/80 shadow-lg shadow-orange-300 hover:ring hover:ring-violet-300 active:shadow-xl active:bg-amber-500'>
                   <Link to={"/NationMap"}>CARTE INTERACTIVE</Link>

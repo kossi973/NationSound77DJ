@@ -62,7 +62,7 @@ const Header = () => {
                                 <ul className='font-bold' >
                                     <li className='my-6'><Link to={"/"}>Concerts</Link></li>
                                     <li className='mb-6'><Link to={"/Programmation"} >Programmation</Link></li>
-                                    <li className='mb-6'>Billetterie</li>
+                                    <li className='mb-6'><a href="https://widget.weezevent.com/ticket/E1243365/?code=2782&locale=fr-FR&width_auto=1&color_primary=0032FA">Billeterie</a></li>
                                     <li className='mb-6'><a href={PathDjango + "faq/"}>FAQ</a></li>
                                     <li className='mb-6'><Link to={"/NationMap"} >Carte Interactive</Link></li>
                                 </ul>
@@ -75,7 +75,7 @@ const Header = () => {
                     <ul className='flex text-red-500 font-bold md:text-lg xl:text-xl' >
                         <li className='mr-4 hover:text-2xl delay-100'><Link to={"/"}>Concerts</Link></li>
                         <li className='mr-4 mb-6 hover:text-2xl delay-100'><Link to={"/Programmation"} >Programmation</Link></li>
-                        <li className='mr-4 mb-6 hover:text-2xl delay-100'>Billetterie</li>                        
+                        <li className='mr-4 mb-6 hover:text-2xl delay-100'><a href="https://widget.weezevent.com/ticket/E1243365/?code=2782&locale=fr-FR&width_auto=1&color_primary=0032FA">Billeterie</a></li>                        
                         <li className='mr-4 mb-6 hover:text-2xl delay-100'><a href={PathDjango + "faq/"}>FAQ</a></li>
                         <li className='mr-10 mb-6 hover:text-2xl delay-100'><Link to={"/NationMap"} >Carte Interactive</Link></li>
                     </ul>                    
